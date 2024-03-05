@@ -5,7 +5,7 @@
 
 飞腾派开发板是飞腾公司针对教育行业推出的一款国产开源硬件平台，兼容 ARMv8-A 处理器架构。此项目涉及安全操作系统，Trustzone硬件架构，都是目前最流行的安全框架。
 
-本项目以安全存储作为一个理解安全架构的切入点，给同学们带来目前主流的安全存储的方式，涉及RPMB、optee、密钥保存，密钥派生，HUK等安全关键方向。
+本项目以安全存储作为一个理解安全架构的切入点，给同学们带来目前主流的安全存储的方式，涉及RPMB(Replay Protected Memory Block)、OP-TEE(Open-source Portable Trusted Execution Environment)、密钥保存，密钥派生，HUK(Hardware Unique Key)等安全关键方向。
 
 ## 预期目标
 
@@ -15,12 +15,11 @@
 
 ## 特征
 
-- optee安全操作系统
+- OP-TEE安全操作系统
 - eMMC的RPMB分区
 - ARM Trustzone硬件架构
 - 密钥派生和密钥存储
-- 硬件支持
-	- 带eMMC的飞腾派开发板
+- 硬件支持**飞腾派开发板**
 
 ## 已有参考资料
 
@@ -40,7 +39,7 @@
 
 ## 难度
 
-高等
+中等
 
 ## License
 
